@@ -1,4 +1,4 @@
 export interface CreateUserDto {
     readonly name: string;
-    readonly age: string;
+    readonly age: number;
 }
