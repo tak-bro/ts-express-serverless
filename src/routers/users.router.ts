@@ -24,7 +24,6 @@ export function usersRouter(): Router {
     /**
      * Create new user from body
      *
-     * ```sh
      * $ cat data/create.user.json | http POST ':3333/users/create'
      */
     router.post('/create', (req: Request, res: Response) => {

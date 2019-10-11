@@ -1,5 +1,13 @@
 # ts-express-serverless
 
+> Typescript + Express + Serverless Framework Boilerplate
+
+## Prerequisite
+
+```sh
+$ npm install -g typescript serverless
+```
+
 ## How to use
 
 ### Installation
