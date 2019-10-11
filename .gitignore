@@ -719,4 +719,6 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
+dist/*
+
 # End of https://www.gitignore.io/api/node,linux,macos,windows,intellij,serverless,intellij+all,visualstudio,intellij+iml,visualstudiocode
