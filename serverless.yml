@@ -1,0 +1,29 @@
+plugins:
+    - serverless-offline
+    - serverless-plugin-typescript-express
+
+service: ts-express-serverless
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  # Lambda Runtime Environment
+  memorySize: 512
+  timeout: 30
+  cfLogs: true
+  region: ap-northeast-2
+
+functions:
+  createUser:
+    handler: src/serverless.handler
+    events:
+      - http:
+          path: users/create
+          method: post
+  getAllUsers:
+    handler: src/serverless.handler
+    events:
+      - http:
+          path: users
+          method: get
