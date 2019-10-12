@@ -1,7 +1,5 @@
 import { UsersService } from '../services/users.service';
-
-import { User } from '../models/user.interface';
-import { CreateUserDto } from '../models/create-user.dto';
+import { CreateUserDto, User } from '../models';
 
 export class UsersController {
     private readonly usersService: UsersService;

@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
 
-import { CreateUserDto } from '../models/create-user.dto';
 import { UsersController } from '../controllers/users.controller';
+import { CreateUserDto, User } from '../models';
 
 export function usersRouter(): Router {
     const router: Router = Router();
@@ -29,7 +29,7 @@ export function usersRouter(): Router {
     router.post('/create', (req: Request, res: Response) => {
         try {
             const userData: CreateUserDto = req.body;
-            const newUser = usersController.createUser(userData);
+            const newUser: User = usersController.createUser(userData);
             res.send(newUser).status(200);
         } catch (err) {
             res.send(err).status(503);
