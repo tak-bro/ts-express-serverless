@@ -1,12 +1,14 @@
 # ts-express-serverless
 
-> Typescript + Express + Serverless Framework Boilerplate
+> [Typescript](https://github.com/microsoft/TypeScript) + [Express](https://github.com/expressjs/express) + [Serverless Framework](https://github.com/serverless/serverless) Boilerplate
 
 ## Prerequisite
 
 ```sh
 $ npm install -g typescript serverless
 ```
+
+---
 
 ## How to use
 
@@ -42,9 +44,27 @@ $ npm run dev:test # for development
 $ npm run lint
 ```
 
-### Deploy to AWS
+### Deploy using Serverless
 
 ```sh
 $ npm run deploy
 ```
 
+--- 
+
+## Author
+
+* [@tak-bro](https://github.com/tak-bro)
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/tak-bro/ts-express-serverless/issues).
+
+## Show your support
+
+Give a ⭐ if this project helped you!
+
+## License
+
+Copyright © 2019 [tak-bro](https://github.com/tak-bro).<br />
+This project is [MIT](https://github.com/tak-bro/ts-express-serverless/blob/master/LICENSE) licensed.
