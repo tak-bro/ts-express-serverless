@@ -59,7 +59,7 @@
         "@types/winston": "^2.4.4",
         "@typescript-eslint/eslint-plugin": "^1.7.0",
         "@typescript-eslint/parser": "^1.7.0",
-        "codecov": "^3.4.0",
+        "codecov": "^3.7.1",
         "concurrently": "^4.1.0",
         "eslint": "^5.16.0",
         "jest": "^24.8.0",
